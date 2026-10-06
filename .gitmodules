@@ -1,0 +1,3 @@
+[submodule "datapack"]
+	path = datapack
+	url = https://github.com/Puccilillo/elysium-datapack.git

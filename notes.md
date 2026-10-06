@@ -1,0 +1,19 @@
+Tax & Claims
+-
+- Based off real days
+- Every day at XX:XX ( config )
+- Tax increases the closer you get to spawn ( config )
+  - Starting from max tax, one subtracts a variable which depends on the distance to spawn
+- Money is taken from the block, which accepts items and stores their values
+  - If block can't pay, it is broken ( no drops ) when it is loaded
+- When placed, say that "At dayX hourY you'll have to pay Z"
+- Data and operations should be detached from the world
+    - The less the block does, the better ( less lagg )
+- GUI
+  - Shows:
+    - Distance from spawn
+    - Hourly cost
+    - Residual time of protection
+  - Accepts:
+    - Coins
+    - Money Bags
